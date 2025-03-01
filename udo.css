@@ -1,0 +1,39 @@
+body {
+  background: url(low.png);
+  background-size: 20px 20;
+  background-position: 80% 0;
+}
+header, main {
+  width: 800px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 150px;
+  line-height: 85px;
+  color: #a500ff;
+  font-family: serif;
+  margin: 70px 0 70px;
+  text-shadow: #ffffff 12px 2px;
+  transform: rotate(0.4deg) skewX(-0.2rad);
+  -webkit-transform: rotate(0.1deg) skewX(-0.2rad);
+  +filter: blur(0px);
+  -webkit-filter: blur(1px);
+}
+h1 em {
+  font-style: normal;
+  font-size: 70px;
+}
+main {
+  width: 600px;
+  margin: 20px auto;
+}
+main object, main iframe {
+  +filter: hue-rotate(30deg) blur(0.5px);
+  -webkit-filter: hue-rotate(30deg) blur(0.4px);
+}
+main a {
+  display: block;
+  font-size: 60px;
+  +filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
